@@ -1,0 +1,30 @@
+/* $Id$ */
+
+/*
+** Put your local CSS modifications in this file
+** if you don't want to modify system provided
+** civicrm.css.
+*/
+
+/* select2 */
+.crm-select2 {
+  width: 20em;
+}
+/* Add arrow icon to multi-selects */
+.crm-container .select2-container-multi .select2-choices:before {
+  background: url("../packages/jquery/plugins/select2/select2.png") no-repeat scroll 0 -4px;
+  content: "";
+  display: block;
+  height: 15px;
+  position: absolute;
+  right: 0;
+  top: 5px;
+  width: 20px;
+}
+.select2-drop ul {
+	padding: 0;
+	margin: 0;
+}
+.select2-drop .select2-results li {
+	margin: 0;
+} 
